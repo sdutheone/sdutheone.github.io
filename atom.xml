@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[TheOne：侠之大者，弼民。]]></title>
+  <title><![CDATA[TheOne的社会]]></title>
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T03:58:03.148Z</updated>
+  <updated>2015-09-04T04:17:24.888Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[我的第一篇文章]]></title>
-    <link href="http://yoursite.com/2015/09/04/new-created-post/"/>
-    <id>http://yoursite.com/2015/09/04/new-created-post/</id>
-    <published>2015-09-04T02:48:04.000Z</published>
-    <updated>2015-09-04T03:58:03.148Z</updated>
+    <link href="http://yoursite.com/2015/01/01/new-created-post/"/>
+    <id>http://yoursite.com/2015/01/01/new-created-post/</id>
+    <published>2015-01-01T02:35:36.000Z</published>
+    <updated>2015-09-04T04:17:24.888Z</updated>
     <content type="html"><![CDATA[<p>这是我的第一篇文章，希望以后可以坚持写博客<br><a id="more"></a></p>
 <p>这是我的第一篇hexo文章，希望以后可以坚持写博客。</p>
 ]]></content>
@@ -28,33 +28,9 @@
     
     </summary>
     
-      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
+      <category term="HelloWorld" scheme="http://yoursite.com/tags/HelloWorld/"/>
     
       <category term="HelloWorld" scheme="http://yoursite.com/categories/HelloWorld/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/09/04/hello-world/"/>
-    <id>http://yoursite.com/2015/09/04/hello-world/</id>
-    <published>2015-09-04T01:20:20.010Z</published>
-    <updated>2015-09-04T01:20:20.010Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
-    </summary>
-    
-      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
     
   </entry>
   
