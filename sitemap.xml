@@ -2,28 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2015/09/04/latex_tutorial/</loc>
+    <lastmod>2015-09-04T12:06:33.157Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/01/01/new_created_post/</loc>
+    <lastmod>2015-09-04T12:05:25.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/09/04/svn_tutorial/</loc>
+    <lastmod>2015-09-04T12:05:15.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/09/04/hexo_tutorial/</loc>
+    <lastmod>2015-09-04T12:05:06.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/01/02/git_tutorial/</loc>
     <lastmod>2015-09-04T11:22:36.679Z</lastmod>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2015/09/04/svn-tutorial/</loc>
-    <lastmod>2015-09-04T11:16:12.925Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2015/01/02/markdown_tutorial/</loc>
     <lastmod>2015-09-04T07:56:19.387Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/09/04/hexo-tutorial/</loc>
-    <lastmod>2015-09-04T07:54:07.511Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/01/01/new-created-post/</loc>
-    <lastmod>2015-09-04T04:17:24.888Z</lastmod>
   </url>
   
 </urlset>
