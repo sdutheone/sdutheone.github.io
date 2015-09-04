@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2015/01/02/github_tutorial/index.html">
 <meta property="og:site_name" content="TheOne的社会">
 <meta property="og:description" content="这是一篇 git 的教程, 以备查看.">
-<meta property="og:updated_time" content="2015-09-04T05:45:22.027Z">
+<meta property="og:updated_time" content="2015-09-04T07:38:24.005Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git 教程">
 <meta name="twitter:description" content="这是一篇 git 的教程, 以备查看.">
@@ -174,7 +174,13 @@
       
         <p>这是一篇 git 的教程, 以备查看.</p>
 <a id="more"></a>
-
+<h1 id="Git_教程">Git 教程</h1><h2 id="Environment_Setup">Environment Setup</h2><pre><code><span class="comment"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="number">1</span>. ssh-keygen -t rsa -C <span class="string">"email"</span> // <span class="keyword">in</span> ~/.ssh/id_rsa.pub</span><br><span class="line"><span class="number">2</span>. github Acount setting</span><br><span class="line"><span class="number">3</span>. ssh -T git@github.com</span><br><span class="line"><span class="number">4</span>. git config --global user.name <span class="string">"name"</span></span><br><span class="line"><span class="number">5</span>. git config --global user.email <span class="string">"email"</span></span><br></pre></td></tr></table></figure></span>
+</code></pre><h2 id="Initiation">Initiation</h2><pre><code><span class="comment"><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>. git init</span><br></pre></td></tr></table></figure></span>
+</code></pre><h2 id="operation_with_remote_repositories">operation with remote repositories</h2><pre><code><span class="comment"><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">git remote -v</span><br><span class="line">git remote <span class="built_in">add</span> upstream<span class="comment"> //repository url</span></span><br><span class="line">git fetch upstream</span><br><span class="line">git checkout master</span><br><span class="line">git <span class="built_in">merge</span> upstream/master</span><br></pre></td></tr></table></figure></span>
+</code></pre><h2 id="本地添加到repository">本地添加到repository</h2><p>git add .<br>git commit -m ‘message string’<br>git push upstream master</p>
+<h2 id="删除后添加到repository">删除后添加到repository</h2><p>rm …<br>git add –all<br>git commit -m ‘delete’<br>git push upstream master</p>
+<h2 id="Clone">Clone</h2><pre><code>git <span class="built_in">clone</span> <span class="string">"url"</span>
+</code></pre>
       
     </div>
     
