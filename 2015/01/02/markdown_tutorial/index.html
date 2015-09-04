@@ -14,7 +14,7 @@
 <meta property="og:image" content="http://img3.douban.com/mpic/s1108264.jpg">
 <meta property="og:image" content="http://img3.douban.com/mpic/s1108264.jpg">
 <meta property="og:image" content="http://img3.douban.com/mpic/s1108264.jpg">
-<meta property="og:updated_time" content="2015-09-04T05:08:28.743Z">
+<meta property="og:updated_time" content="2015-09-04T05:28:53.887Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown 教程">
 <meta name="twitter:description" content="这是一篇 markdown 教程，将不断更新，以备查看。">
@@ -217,13 +217,43 @@
 <p><a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><strong><em>Jane Eyre</em></strong></a> is not just <strong><em>Jane Eyre</em></strong></p>
 <p><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></p>
 <p><strong>两种方式</strong>：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[][] "" 方式：一般用于段落内，[]的链接放到段落后</span><br><span class="line"><span class="code">	</span></span><br><span class="line">[<span class="link_label">***Jane Eyre***</span>][<span class="link_reference">info_url</span>] is not just <span class="strong">***Jane Eyre**</span>*</span><br><span class="line">![][pic_url]</span><br><span class="line">[<span class="link_reference">info_url</span>]:<span class="link_url"> http://book.douban.com/subject/1141406/ "信息链接"</span></span><br><span class="line">[<span class="link_reference">pic_url</span>]:<span class="link_url"> http://img3.douban.com/mpic/s1108264.jpg "图片链接"</span></span><br><span class="line"></span><br><span class="line">[]() 方式：一般用于多个链接排列，</span><br><span class="line">[<span class="link_label">***Jane Eyre***</span>](<span class="link_url">http://book.douban.com/subject/1141406/</span>) is not just <span class="strong">***Jane Eyre**</span>*</span><br><span class="line">![](http://img3.douban.com/mpic/s1108264.jpg)</span><br></pre></td></tr></table></figure>
+<p><strong>大小写不敏感</strong><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[][] "" 方式：一般用于段落内，[]的链接放到段落后</span><br><span class="line"><span class="code">	</span></span><br><span class="line">[<span class="link_label">***Jane Eyre***</span>][<span class="link_reference">info_url</span>] is not just <span class="strong">***Jane Eyre**</span>*</span><br><span class="line">![][pic_url]</span><br><span class="line">[<span class="link_reference">info_url</span>]:<span class="link_url"> http://book.douban.com/subject/1141406/ "信息链接"</span></span><br><span class="line">[<span class="link_reference">pic_url</span>]:<span class="link_url"> http://img3.douban.com/mpic/s1108264.jpg "图片链接"</span></span><br><span class="line"></span><br><span class="line">[]() 方式：一般用于多个链接排列，</span><br><span class="line">[<span class="link_label">***Jane Eyre***</span>](<span class="link_url">http://book.douban.com/subject/1141406/</span>) is not just <span class="strong">***Jane Eyre**</span>*</span><br><span class="line">![](http://img3.douban.com/mpic/s1108264.jpg)</span><br></pre></td></tr></table></figure></p>
 <p><strong>特殊链接</strong>：</p>
 <p>我爱 <code>分割线</code>， 我爱 <a href="chrome://not-a-link" target="_blank" rel="external"><strong>链接</strong></a>，哪怕它只有颜色~</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="horizontal_rule">---</span></span><br><span class="line"></span><br><span class="line">我爱 <span class="code">`分割线`</span>， 我爱 [<span class="link_label">**链接**</span>][<span class="link_reference">null-link</span>]，哪怕它只有颜色~</span><br><span class="line"></span><br><span class="line">[<span class="link_reference">null-link</span>]:<span class="link_url"> chrome://not-a-link</span></span><br></pre></td></tr></table></figure>
 <hr>
-<h1 id="5-_其他">5. 其他</h1><hr>
-<p><strong>P.P.S.</strong> 图片链接：(点击图片可跳转）<br><a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></a></p>
+<h1 id="5-_引用">5. 引用</h1><blockquote>
+<p>一级引用</p>
+<blockquote>
+<p>二级引用</p>
+</blockquote>
+</blockquote>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; 一级引用</span><br><span class="line"><span class="prompt">&gt;&gt;</span> 二级引用</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="6-_代码片段">6. 代码片段</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span><br><span class="line">    </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello World"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```java</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">test</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(<span class="params">String[] args</span>)</span><br><span class="line">        </span>&#123;</span><br><span class="line">            System.<span class="keyword">out</span>.println(<span class="string">"Hello World"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<hr>
+<p>#7. 表格</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">first</th>
+<th style="text-align:center">next</th>
+<th style="text-align:right">last</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>1</strong></td>
+<td style="text-align:center">2</td>
+<td style="text-align:right"><del>3</del>  23</td>
+</tr>
+</tbody>
+</table>
+<p>table1. 多种</p>
+<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|<span class="string"> first </span>|<span class="string"> next </span>|<span class="string"> last </span>|</span><br><span class="line">|<span class="string"> :---- </span>|<span class="string"> :--: </span>|<span class="string"> ---: </span>|</span><br><span class="line">|<span class="string"> **1** </span>|<span class="string"> 2 </span>|<span class="string"> ~~3~~  23 </span>|</span><br><span class="line">table1. 多种</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="8-_其他">8. 其他</h1><p><strong>P.P.S.</strong> 图片链接：(点击图片可跳转）<br><a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></a></p>
 <p>代码如下：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[<span class="link_label">![</span>][<span class="link_reference">jane-eyre-pic</span>]][<span class="link_reference">jane-eyre-douban</span>]</span><br><span class="line">[<span class="link_reference">jane-eyre-pic</span>]:<span class="link_url"> http://img3.douban.com/mpic/s1108264.jpg</span></span><br><span class="line">[<span class="link_reference">jane-eyre-douban</span>]:<span class="link_url"> http://book.douban.com/subject/1141406/</span></span><br></pre></td></tr></table></figure></p>
 <p>更多的 Markdown 特性测试，见我的 <a href="http://jianshu.io/p/6827f850f723" target="_blank" rel="external">Markdown 一篇博客</a></p>
 <p>在简书中输入数学公式：见我的 <a href="http://jianshu.io/p/e8a14ec1c614" target="_blank" rel="external">简书中编辑数学公式</a></p>
