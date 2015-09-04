@@ -4,7 +4,7 @@
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T07:54:07.511Z</updated>
+  <updated>2015-09-04T11:16:12.925Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[SVN 教程]]></title>
+    <link href="http://yoursite.com/2015/09/04/svn-tutorial/"/>
+    <id>http://yoursite.com/2015/09/04/svn-tutorial/</id>
+    <published>2015-09-04T10:59:42.000Z</published>
+    <updated>2015-09-04T11:16:12.925Z</updated>
+    <content type="html"><![CDATA[<p>SVN 教程 </p>
+<a id="more"></a>
+<h1 id="更新历史">更新历史</h1><h1 id="SVN_介绍">SVN 介绍</h1><p>基本概念和 git 类似</p>
+<ul>
+<li>版本库</li>
+<li>工作区</li>
+</ul>
+<h1 id="SVN_使用">SVN 使用</h1>]]></content>
+    <summary type="html">
+    <![CDATA[<p>SVN 教程 </p>]]>
+    
+    </summary>
+    
+      <category term="svn" scheme="http://yoursite.com/tags/svn/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hexo 教程]]></title>
