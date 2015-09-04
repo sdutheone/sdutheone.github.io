@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[TheOne's Blog]]></title>
-  <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
+  <title><![CDATA[TheOne -- 侠之大者，弼民。]]></title>
+  <subtitle><![CDATA[TheOne's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
   <updated>2015-09-04T01:20:20.010Z</updated>
@@ -9,7 +9,7 @@
   
   <author>
     <name><![CDATA[TheOne]]></name>
-    
+    <email><![CDATA[sdutheone@gmail.com]]></email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
