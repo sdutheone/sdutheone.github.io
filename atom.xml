@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[TheOne -- 侠之大者，弼民。]]></title>
+  <title><![CDATA[TheOne：侠之大者，弼民。]]></title>
   <subtitle><![CDATA[TheOne's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T03:04:02.399Z</updated>
+  <updated>2015-09-04T03:08:00.520Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,21 +15,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[new_created_post]]></title>
+    <title><![CDATA[我的第一篇文章]]></title>
     <link href="http://yoursite.com/2015/09/04/new-created-post/"/>
     <id>http://yoursite.com/2015/09/04/new-created-post/</id>
     <published>2015-09-04T02:48:04.000Z</published>
-    <updated>2015-09-04T03:04:02.399Z</updated>
-    <content type="html"><![CDATA[<p>以上是摘要<br><a id="more"></a></p>
+    <updated>2015-09-04T03:08:00.520Z</updated>
+    <content type="html"><![CDATA[<p>这是我的第一篇文章，希望以后可以坚持写博客<br><a id="more"></a></p>
+<p>这是我的第一篇hexo文章，希望以后可以坚持写博客。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[文章摘要]]>
+    <![CDATA[<p>这是我的第一篇文章，希望以后可以坚持写博客<br>]]>
     
     </summary>
     
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
     
-      <category term="你猜" scheme="http://yoursite.com/categories/%E4%BD%A0%E7%8C%9C/"/>
+      <category term="HelloWorld" scheme="http://yoursite.com/categories/HelloWorld/"/>
     
   </entry>
   
