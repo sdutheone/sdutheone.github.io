@@ -4,7 +4,7 @@
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T07:16:31.006Z</updated>
+  <updated>2015-09-04T07:29:14.131Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,14 +15,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[markdown 高级教程]]></title>
+    <link href="http://yoursite.com/2015/09/04/markdown-advanced-tutorial/"/>
+    <id>http://yoursite.com/2015/09/04/markdown-advanced-tutorial/</id>
+    <published>2015-09-04T07:24:25.000Z</published>
+    <updated>2015-09-04T07:29:14.131Z</updated>
+    <content type="html"><![CDATA[<p>高级 markdown 教程, 包括 流程图 序列图等</p>
+<a id="more"></a> 
+<h1 id="7-_流程图">7. 流程图</h1><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">st=&#62;start: Start:&#62;https://www.zybuluo.com&#10;io=&#62;inputoutput: verification&#10;op=&#62;operation: Your Operation&#10;cond=&#62;condition: Yes or No?&#10;sub=&#62;subroutine: Your Subroutine&#10;e=&#62;end&#10;&#10;st-&#62;io-&#62;op-&#62;cond&#10;cond(yes)-&#62;e&#10;cond(no)-&#62;sub-&#62;io</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```flow</span><br><span class="line">st=&gt;start: Start:&gt;https:<span class="comment">//www.zybuluo.com</span></span><br><span class="line">io=&gt;inputoutput: verification</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes <span class="keyword">or</span> No?</span><br><span class="line">sub=&gt;subroutine: Your Subroutine</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;io-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;sub-&gt;io</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<h4 id="更多语法参考：流程图语法参考">更多语法参考：<a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="external">流程图语法参考</a></h4><h1 id="8-_序列图">8. 序列图</h1><h4 id="示例_1">示例 1</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Alice-&#62;Bob: Hello Bob, how are you?&#10;Note right of Bob: Bob thinks&#10;Bob--&#62;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```seq</span><br><span class="line"><span class="label">Alice</span>-&gt;<span class="keyword">Bob: </span>Hello <span class="keyword">Bob, </span>how are you?</span><br><span class="line"><span class="label">Note</span> right of <span class="keyword">Bob: </span><span class="keyword">Bob </span>thinks</span><br><span class="line"><span class="keyword">Bob--&gt;Alice: </span>I am good thanks!</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<h4 id="示例_2">示例 2</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Title: Here is a title&#10;A-&#62;B: Normal line&#10;B--&#62;C: Dashed line&#10;C-&#62;&#62;D: Open arrow&#10;D--&#62;&#62;A: Dashed open arrow</span><br></pre></td></tr></table></figure>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```seq</span><br><span class="line">Title: Here is a title</span><br><span class="line">A-&gt;B: <span class="keyword">Normal</span> line</span><br><span class="line">B--&gt;<span class="keyword">C</span>: <span class="keyword">Dashed</span> line</span><br><span class="line"><span class="keyword">C</span>-&gt;&gt;<span class="keyword">D</span>: <span class="keyword">Open</span> arrow</span><br><span class="line"><span class="keyword">D</span>--&gt;&gt;A: <span class="keyword">Dashed</span> open arrow</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<h4 id="更多语法参考：序列图语法参考">更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="external">序列图语法参考</a></h4>]]></content>
+    <summary type="html">
+    <![CDATA[<p>高级 markdown 教程, 包括 流程图 序列图等</p>]]>
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Git 教程]]></title>
+    <link href="http://yoursite.com/2015/01/02/github_tutorial/"/>
+    <id>http://yoursite.com/2015/01/02/github_tutorial/</id>
+    <published>2015-01-02T02:35:36.000Z</published>
+    <updated>2015-09-04T05:45:22.027Z</updated>
+    <content type="html"><![CDATA[<p>这是一篇 git 的教程, 以备查看.</p>
+<a id="more"></a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是一篇 git 的教程, 以备查看.</p>]]>
+    
+    </summary>
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Markdown 教程]]></title>
     <link href="http://yoursite.com/2015/01/02/markdown_tutorial/"/>
     <id>http://yoursite.com/2015/01/02/markdown_tutorial/</id>
     <published>2015-01-02T02:35:36.000Z</published>
-    <updated>2015-09-04T07:16:31.006Z</updated>
+    <updated>2015-09-04T07:26:36.708Z</updated>
     <content type="html"><![CDATA[<p>这是一篇 markdown 教程，将不断更新，以备查看。</p>
 <a id="more"></a>
-<p>[TOC]</p>
 <hr>
 <h1 id="0-_总纲">0. 总纲</h1><blockquote>
 <ol>
@@ -118,26 +163,6 @@
     </summary>
     
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
-      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Git 教程]]></title>
-    <link href="http://yoursite.com/2015/01/02/github_tutorial/"/>
-    <id>http://yoursite.com/2015/01/02/github_tutorial/</id>
-    <published>2015-01-02T02:35:36.000Z</published>
-    <updated>2015-09-04T05:45:22.027Z</updated>
-    <content type="html"><![CDATA[<p>这是一篇 git 的教程, 以备查看.</p>
-<a id="more"></a>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>这是一篇 git 的教程, 以备查看.</p>]]>
-    
-    </summary>
-    
-      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
       <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
     
