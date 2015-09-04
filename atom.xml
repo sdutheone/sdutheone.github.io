@@ -4,7 +4,7 @@
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T05:37:53.266Z</updated>
+  <updated>2015-09-04T05:45:41.042Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,14 +19,10 @@
     <link href="http://yoursite.com/2015/01/02/markdown_tutorial/"/>
     <id>http://yoursite.com/2015/01/02/markdown_tutorial/</id>
     <published>2015-01-02T02:35:36.000Z</published>
-    <updated>2015-09-04T05:37:53.266Z</updated>
+    <updated>2015-09-04T05:45:41.042Z</updated>
     <content type="html"><![CDATA[<p>这是一篇 markdown 教程，将不断更新，以备查看。</p>
 <a id="more"></a>
 <hr>
-<blockquote>
-<p><del>简书居然没有官方 Markdown 教程，我来</del><br>原来官方是有的。。。<a href="http://jianshu.io/p/q81RER" target="_blank" rel="external">献给写作者的 Markdown 新手指南</a><br>不过我这个更简。而且还有独门秘籍。</p>
-</blockquote>
-<p>首先，“Markdown 其实很简单。在简书上学习 Markdown 最方便。”</p>
 <h1 id="0-_总纲">0. 总纲</h1><blockquote>
 <p>注意所有格式前后最好加空格、上下各空一行。</p>
 </blockquote>
@@ -116,6 +112,26 @@
     </summary>
     
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Git 教程]]></title>
+    <link href="http://yoursite.com/2015/01/02/github_tutorial/"/>
+    <id>http://yoursite.com/2015/01/02/github_tutorial/</id>
+    <published>2015-01-02T02:35:36.000Z</published>
+    <updated>2015-09-04T05:45:22.027Z</updated>
+    <content type="html"><![CDATA[<p>这是一篇 git 的教程, 以备查看.</p>
+<a id="more"></a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是一篇 git 的教程, 以备查看.</p>]]>
+    
+    </summary>
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
       <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
     
