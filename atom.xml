@@ -4,7 +4,7 @@
   <subtitle><![CDATA[TheOne's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T02:56:55.144Z</updated>
+  <updated>2015-09-04T03:04:02.399Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,9 @@
     <link href="http://yoursite.com/2015/09/04/new-created-post/"/>
     <id>http://yoursite.com/2015/09/04/new-created-post/</id>
     <published>2015-09-04T02:48:04.000Z</published>
-    <updated>2015-09-04T02:56:55.144Z</updated>
-    <content type="html"></content>
+    <updated>2015-09-04T03:04:02.399Z</updated>
+    <content type="html"><![CDATA[<p>以上是摘要<br><a id="more"></a></p>
+]]></content>
     <summary type="html">
     <![CDATA[文章摘要]]>
     
