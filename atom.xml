@@ -4,7 +4,7 @@
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-04T12:06:33.157Z</updated>
+  <updated>2015-09-08T02:38:49.122Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[paper_index]]></title>
+    <link href="http://yoursite.com/2015/09/08/paper-index/"/>
+    <id>http://yoursite.com/2015/09/08/paper-index/</id>
+    <published>2015-09-08T02:35:58.000Z</published>
+    <updated>2015-09-08T02:38:49.122Z</updated>
+    <content type="html"><![CDATA[<p>这里是论文的阅读记录, 希望以后可以看一周三篇论文并做笔记.</p>
+<a id="more"></a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这里是论文的阅读记录, 希望以后可以看一周三篇论文并做笔记.</p>]]>
+    
+    </summary>
+    
+      <category term="HelloWorld" scheme="http://yoursite.com/tags/HelloWorld/"/>
+    
+      <category term="论文阅读" scheme="http://yoursite.com/categories/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[LaTex 教程]]></title>
