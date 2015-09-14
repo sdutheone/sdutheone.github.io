@@ -4,7 +4,7 @@
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-08T02:38:49.122Z</updated>
+  <updated>2015-09-14T04:48:10.139Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[sql_tutorial]]></title>
+    <link href="http://yoursite.com/2015/09/14/sql-tutorial/"/>
+    <id>http://yoursite.com/2015/09/14/sql-tutorial/</id>
+    <published>2015-09-14T04:43:25.000Z</published>
+    <updated>2015-09-14T04:48:10.139Z</updated>
+    <content type="html"><![CDATA[<p>这是一篇sql基础教程，不断更新以备查看</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这是一篇sql基础教程，不断更新以备查看</p>
+]]>
+    </summary>
+    
+      <category term="sql" scheme="http://yoursite.com/tags/sql/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[paper_index]]></title>
