@@ -4,7 +4,7 @@
   <subtitle><![CDATA[侠之大者，弼民。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-19T11:33:09.926Z</updated>
+  <updated>2015-09-23T02:21:35.706Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[hadoop]]></title>
-    <link href="http://yoursite.com/2015/09/19/hadoop/"/>
-    <id>http://yoursite.com/2015/09/19/hadoop/</id>
-    <published>2015-09-19T11:33:09.000Z</published>
-    <updated>2015-09-19T11:33:09.926Z</updated>
+    <link href="http://yoursite.com/2015/09/23/hadoop/"/>
+    <id>http://yoursite.com/2015/09/23/hadoop/</id>
+    <published>2015-09-23T02:21:35.000Z</published>
+    <updated>2015-09-23T02:21:35.706Z</updated>
     <content type="html"></content>
     <summary type="html">
     
